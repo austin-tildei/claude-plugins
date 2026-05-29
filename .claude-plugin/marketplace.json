@@ -8,7 +8,7 @@
     {
       "name": "austin",
       "source": "./plugins/austin",
-      "description": "Austin's personal Claude Code toolbox (share-transcript and more)."
+      "description": "Austin's personal Claude Code toolbox (save-convo and more)."
     }
   ]
 }

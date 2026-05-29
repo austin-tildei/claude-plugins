@@ -1,7 +1,7 @@
 {
   "name": "austin",
-  "description": "Austin's personal Claude Code toolbox. Skills: share-transcript (render the current session to shareable Markdown with light secret redaction).",
-  "version": "0.1.0",
+  "description": "Austin's personal Claude Code toolbox. Skills: save-convo (render the current session to shareable Markdown with light secret redaction).",
+  "version": "0.2.0",
   "author": {
     "name": "Austin Bruch"
   },

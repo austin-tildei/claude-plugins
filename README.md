@@ -15,7 +15,7 @@ Add it once, then install any plugin listed below.
 | ------------------------- | ------------------------------------ | -------------------------------------- |
 | [austin](plugins/austin/) | Austin's personal toolbox of skills. | `/plugin install austin@austin-tildei` |
 
-**`austin` skills:** `/austin:share-transcript` — render the current session to
+**`austin` skills:** `/austin:save-convo` — render the current session to
 shareable Markdown and copy it to the clipboard.
 
 ## Adding a skill

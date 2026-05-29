@@ -1,9 +1,9 @@
 ---
-name: share-transcript
-description: Use when the user wants to share, export, or hand off the current Claude Code conversation to a teammate as a readable file. Renders the live session transcript to shareable Markdown (prompts + replies + one-line tool summaries; thinking and tool output omitted; light secret redaction) under ~/.claude/shared-transcripts/ and copies it to the clipboard. Triggers on "share this session", "share this conversation", "export this chat", "send this transcript to a teammate".
+name: save-convo
+description: Use when the user wants to save, share, export, or hand off the current Claude Code conversation to a teammate as a readable file. Renders the live session transcript to shareable Markdown (prompts + replies + one-line tool summaries; thinking and tool output omitted; light secret redaction) under ~/.claude/shared-transcripts/ and copies it to the clipboard. Triggers on "save this conversation", "save this chat", "share this session", "share this conversation", "export this chat", "send this transcript to a teammate".
 ---
 
-# share-transcript
+# save-convo
 
 Render the current Claude Code session into a shareable Markdown file and copy it to the clipboard.
 

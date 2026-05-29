@@ -12,7 +12,7 @@ personal skills. Install once; each skill is invoked as `/austin:<skill>`.
 
 ## Skills
 
-### `/austin:share-transcript`
+### `/austin:save-convo`
 
 Renders the current session into a shareable Markdown file — user prompts,
 Claude replies, and one-line tool summaries — and copies it to the clipboard.
@@ -38,11 +38,11 @@ and whether the clipboard was populated. Output lands in
   transcript via the `CLAUDE_CODE_SESSION_ID` environment variable and reads the
   session JSONL under `~/.claude/projects/`. These are undocumented internals;
   a future Claude Code release could change the layout or event schema and break
-  rendering. `skills/share-transcript/test_render.py` exercises the parser
+  rendering. `skills/save-convo/test_render.py` exercises the parser
   against fixture events and acts as a regression canary if the format shifts.
 
 ## Tests
 
 ```
-python3 skills/share-transcript/test_render.py
+python3 skills/save-convo/test_render.py
 ```
