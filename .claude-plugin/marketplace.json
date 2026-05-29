@@ -1,0 +1,14 @@
+{
+  "name": "austin-tildei",
+  "description": "Personal Claude Code plugins by Austin Bruch.",
+  "owner": {
+    "name": "Austin Bruch"
+  },
+  "plugins": [
+    {
+      "name": "share-transcript",
+      "source": "./plugins/share-transcript",
+      "description": "Render the current Claude Code session into a shareable Markdown file and copy it to the clipboard."
+    }
+  ]
+}

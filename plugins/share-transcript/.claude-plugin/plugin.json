@@ -1,0 +1,9 @@
+{
+  "name": "share-transcript",
+  "description": "Render the current Claude Code session into a shareable Markdown file (prompts + replies + one-line tool summaries; thinking and tool output omitted; light secret redaction) and copy it to the clipboard.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Austin Bruch"
+  },
+  "keywords": ["transcript", "export", "share", "session", "markdown"]
+}
