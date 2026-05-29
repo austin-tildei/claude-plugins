@@ -1,3 +1,6 @@
 __pycache__/
 *.py[cod]
 .DS_Store
+
+# Private design/spec notes — kept out of published plugins and git history
+docs/
