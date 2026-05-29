@@ -6,9 +6,9 @@
   },
   "plugins": [
     {
-      "name": "share-transcript",
-      "source": "./plugins/share-transcript",
-      "description": "Render the current Claude Code session into a shareable Markdown file and copy it to the clipboard."
+      "name": "austin",
+      "source": "./plugins/austin",
+      "description": "Austin's personal Claude Code toolbox (share-transcript and more)."
     }
   ]
 }

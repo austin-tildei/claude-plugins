@@ -1,29 +1,27 @@
-# share-transcript
+# austin
 
-A Claude Code plugin that renders the current session into a shareable Markdown
-file — user prompts, Claude replies, and one-line tool summaries — and copies it
-to the clipboard. Thinking blocks and raw tool output are omitted, and a
-best-effort secret redaction pass runs before the file is written.
+Austin's personal Claude Code toolbox — a namespace plugin holding a set of
+personal skills. Install once; each skill is invoked as `/austin:<skill>`.
 
 ## Install
 
 ```
 /plugin marketplace add austin-tildei/claude-plugins
-/plugin install share-transcript@austin-tildei
+/plugin install austin@austin-tildei
 ```
 
-## Use
+## Skills
 
-In any session you want to share:
+### `/austin:share-transcript`
 
-```
-/share-transcript:share-transcript
-```
+Renders the current session into a shareable Markdown file — user prompts,
+Claude replies, and one-line tool summaries — and copies it to the clipboard.
+Thinking blocks and raw tool output are omitted, and a best-effort secret
+redaction pass runs before the file is written.
 
-The skill runs the renderer, then reports the written file path, how many
-potential secrets were masked, and whether the clipboard was populated.
-
-Output lands in `~/.claude/shared-transcripts/YYYY-MM-DD-HHMM-<slug>.md`.
+The skill reports the written file path, how many potential secrets were masked,
+and whether the clipboard was populated. Output lands in
+`~/.claude/shared-transcripts/YYYY-MM-DD-HHMM-<slug>.md`.
 
 ## Requirements
 

@@ -1,0 +1,9 @@
+{
+  "name": "austin",
+  "description": "Austin's personal Claude Code toolbox. Skills: share-transcript (render the current session to shareable Markdown with light secret redaction).",
+  "version": "0.1.0",
+  "author": {
+    "name": "Austin Bruch"
+  },
+  "keywords": ["personal", "toolbox", "transcript", "share"]
+}
